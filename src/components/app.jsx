@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+import SearchBar from '../containers/search_bar';
 
 export default function App() {
-  return <div>React simple starter</div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  );
 }
